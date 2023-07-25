@@ -18,26 +18,9 @@ public class RootApplicationContextConfig {
     hikariConfig.setDriverClassName("oracle.jdbc.OracleDriver");//--ORACLE DRIVER
     //hikariConfig.setDriverClassName("com.mysql.jdbc.Driver");
     //hikariConfig.setDriverClassName("com.mysql.cj.jdbc.Driver");//--MySQL DRIVER
-    
-    //hikariConfig.setJdbcUrl("jdbc:mysql://60.248.247.197:1262/mysqlerp?serverTimezone=UTC");//--DEMO自動控制客戶端
-    //hikariConfig.setJdbcUrl("jdbc:mysql://localhost:3306/mysqlerp?serverTimezone=UTC");//--DEMO自動控制客戶端
-    //hikariConfig.setJdbcUrl("jdbc:mysql://localhost:3306/t_database?serverTimezone=UTC");//--本地MYSQL:ScrewModmatDEMO用
-    
-    //hikariConfig.setJdbcUrl("jdbc:mysql://localhost:3306/Stit_Database?serverTimezone=UTC");//--本地MYSQL:ScrewModmatDEMO用
-    
-    //hikariConfig.setJdbcUrl("jdbc:oracle:thin:@192.168.1.50:1526:chfdb");//--全雄:本作為測試圖表
-    //hikariConfig.setJdbcUrl("jdbc:oracle:thin:@192.168.1.50:1526:cpcdb");//--CPC:取(冠誠) CPCDB 公司端的資料 :ScrewModmat用
-    //hikariConfig.setJdbcUrl("jdbc:oracle:thin:@192.168.1.50:1526:chudb");//--陳老師上課用範例
-    //hikariConfig.setJdbcUrl("jdbc:oracle:thin:@localhost:1522:scorpio");//--陳老師private
-    //hikariConfig.setJdbcUrl("jdbc:oracle:thin:@192.168.1.50:1526:D11U");//--詮良公司端的資料 :dashboard用
-    //hikariConfig.setJdbcUrl("jdbc:oracle:thin:@220.134.223.125:1521:chferpdb");//--全雄客戶端的資料 :dashboard用 開發用
-    //hikariConfig.setJdbcUrl("jdbc:oracle:thin:@192.168.1.6:1521:chferpdb");//--全雄客戶端的資料 :dashboard用 打包用
-    
-//    hikariConfig.setJdbcUrl("jdbc:oracle:thin:@211.75.151.31:1521:jlderpdb");//--吉立登客戶端的資料 :dashboard用 開發用
-//    hikariConfig.setJdbcUrl("jdbc:oracle:thin:@jlderp.jldfasteners.com.tw:1521:jlderpdb");//--吉立登客戶端的資料 :dashboard用 打包用
-
-//    hikariConfig.setJdbcUrl("jdbc:oracle:thin:@jftierp.mold-tw.com.tw:1521/jftierpdb");//--吉立登客戶端的資料 :dashboard用 打包用
-    hikariConfig.setJdbcUrl("jdbc:oracle:thin:@192.168.1.60:1521:jftidb");//--吉立登客戶端的資料 :dashboard用 打包用
+  
+    hikariConfig.setJdbcUrl("jdbc:oracle:thin:@jftierp.mold-tw.com.tw:1521/jftierpdb");//--吉立登客戶端的資料 :dashboard用 打包用
+//    hikariConfig.setJdbcUrl("jdbc:oracle:thin:@192.168.1.60:1521:jftidb");//--吉立登客戶端的資料 :dashboard用 打包用
 
     
     //------------------------------------------DEMO自動控制客戶端
